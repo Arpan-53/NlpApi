@@ -1,0 +1,89 @@
+Defaulting to user installation because normal site-packages is not writeable
+Collecting accelerate
+  Downloading accelerate-0.19.0-py3-none-any.whl (219 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 219.1/219.1 KB 2.2 MB/s eta 0:00:00
+Collecting transformers[torch]==4.25.1
+  Downloading transformers-4.25.1-py3-none-any.whl (5.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.8/5.8 MB 10.5 MB/s eta 0:00:00
+Requirement already satisfied: regex!=2019.12.17 in /home/arpan/.local/lib/python3.10/site-packages (from transformers[torch]==4.25.1) (2023.5.5)
+Requirement already satisfied: pyyaml>=5.1 in /usr/lib/python3/dist-packages (from transformers[torch]==4.25.1) (5.4.1)
+Collecting huggingface-hub<1.0,>=0.10.0
+  Downloading huggingface_hub-0.14.1-py3-none-any.whl (224 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 224.5/224.5 KB 10.0 MB/s eta 0:00:00
+Collecting filelock
+  Downloading filelock-3.12.0-py3-none-any.whl (10 kB)
+Requirement already satisfied: numpy>=1.17 in /home/arpan/.local/lib/python3.10/site-packages (from transformers[torch]==4.25.1) (1.24.3)
+Requirement already satisfied: requests in /usr/lib/python3/dist-packages (from transformers[torch]==4.25.1) (2.25.1)
+Requirement already satisfied: tqdm>=4.27 in /home/arpan/.local/lib/python3.10/site-packages (from transformers[torch]==4.25.1) (4.65.0)
+Requirement already satisfied: packaging>=20.0 in /home/arpan/.local/lib/python3.10/site-packages (from transformers[torch]==4.25.1) (23.1)
+Collecting tokenizers!=0.11.3,<0.14,>=0.11.1
+  Downloading tokenizers-0.13.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (7.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.8/7.8 MB 10.6 MB/s eta 0:00:00
+Collecting torch!=1.12.0,>=1.7
+  Downloading torch-2.0.1-cp310-cp310-manylinux1_x86_64.whl (619.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 619.9/619.9 MB 4.8 MB/s eta 0:00:00
+Collecting psutil
+  Downloading psutil-5.9.5-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (282 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 282.1/282.1 KB 7.8 MB/s eta 0:00:00
+Requirement already satisfied: typing-extensions>=3.7.4.3 in /home/arpan/.local/lib/python3.10/site-packages (from huggingface-hub<1.0,>=0.10.0->transformers[torch]==4.25.1) (4.5.0)
+Collecting fsspec
+  Downloading fsspec-2023.5.0-py3-none-any.whl (160 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 160.1/160.1 KB 8.2 MB/s eta 0:00:00
+Requirement already satisfied: jinja2 in /home/arpan/.local/lib/python3.10/site-packages (from torch!=1.12.0,>=1.7->transformers[torch]==4.25.1) (3.1.2)
+Collecting sympy
+  Using cached sympy-1.11.1-py3-none-any.whl (6.5 MB)
+Collecting nvidia-cuda-runtime-cu11==11.7.99
+  Downloading nvidia_cuda_runtime_cu11-11.7.99-py3-none-manylinux1_x86_64.whl (849 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 849.3/849.3 KB 7.9 MB/s eta 0:00:00
+Collecting nvidia-cudnn-cu11==8.5.0.96
+  Downloading nvidia_cudnn_cu11-8.5.0.96-2-py3-none-manylinux1_x86_64.whl (557.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 557.1/557.1 MB 5.5 MB/s eta 0:00:00
+Collecting nvidia-curand-cu11==10.2.10.91
+  Downloading nvidia_curand_cu11-10.2.10.91-py3-none-manylinux1_x86_64.whl (54.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 54.6/54.6 MB 10.3 MB/s eta 0:00:00
+Collecting nvidia-nccl-cu11==2.14.3
+  Using cached nvidia_nccl_cu11-2.14.3-py3-none-manylinux1_x86_64.whl (177.1 MB)
+Collecting nvidia-cusparse-cu11==11.7.4.91
+  Using cached nvidia_cusparse_cu11-11.7.4.91-py3-none-manylinux1_x86_64.whl (173.2 MB)
+Collecting nvidia-cuda-cupti-cu11==11.7.101
+  Downloading nvidia_cuda_cupti_cu11-11.7.101-py3-none-manylinux1_x86_64.whl (11.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.8/11.8 MB 11.2 MB/s eta 0:00:00
+Collecting nvidia-cuda-nvrtc-cu11==11.7.99
+  Downloading nvidia_cuda_nvrtc_cu11-11.7.99-2-py3-none-manylinux1_x86_64.whl (21.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21.0/21.0 MB 11.3 MB/s eta 0:00:00
+Requirement already satisfied: networkx in /home/arpan/.local/lib/python3.10/site-packages (from torch!=1.12.0,>=1.7->transformers[torch]==4.25.1) (3.1)
+Collecting nvidia-cufft-cu11==10.9.0.58
+  Downloading nvidia_cufft_cu11-10.9.0.58-py3-none-manylinux1_x86_64.whl (168.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 168.4/168.4 MB 7.4 MB/s eta 0:00:00
+Collecting triton==2.0.0
+  Using cached triton-2.0.0-1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (63.3 MB)
+Collecting nvidia-cublas-cu11==11.10.3.66
+  Downloading nvidia_cublas_cu11-11.10.3.66-py3-none-manylinux1_x86_64.whl (317.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 317.1/317.1 MB 6.9 MB/s eta 0:00:00
+Collecting nvidia-cusolver-cu11==11.4.0.1
+  Downloading nvidia_cusolver_cu11-11.4.0.1-2-py3-none-manylinux1_x86_64.whl (102.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 102.6/102.6 MB 8.3 MB/s eta 0:00:00
+Collecting nvidia-nvtx-cu11==11.7.91
+  Using cached nvidia_nvtx_cu11-11.7.91-py3-none-manylinux1_x86_64.whl (98 kB)
+Requirement already satisfied: setuptools in /usr/lib/python3/dist-packages (from nvidia-cublas-cu11==11.10.3.66->torch!=1.12.0,>=1.7->transformers[torch]==4.25.1) (59.6.0)
+Requirement already satisfied: wheel in /usr/lib/python3/dist-packages (from nvidia-cublas-cu11==11.10.3.66->torch!=1.12.0,>=1.7->transformers[torch]==4.25.1) (0.37.1)
+Collecting lit
+  Downloading lit-16.0.3.tar.gz (138 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 138.0/138.0 KB 10.3 MB/s eta 0:00:00
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting cmake
+  Downloading cmake-3.26.3-py2.py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (24.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 24.0/24.0 MB 10.2 MB/s eta 0:00:00
+Requirement already satisfied: MarkupSafe>=2.0 in /usr/lib/python3/dist-packages (from jinja2->torch!=1.12.0,>=1.7->transformers[torch]==4.25.1) (2.0.1)
+Collecting mpmath>=0.19
+  Downloading mpmath-1.3.0-py3-none-any.whl (536 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 536.2/536.2 KB 11.5 MB/s eta 0:00:00
+Building wheels for collected packages: lit
+  Building wheel for lit (setup.py): started
+  Building wheel for lit (setup.py): finished with status 'done'
+  Created wheel for lit: filename=lit-16.0.3-py3-none-any.whl size=88195 sha256=ef951a1f9a99b4f70cfe82e561496e34cf410a6399f1ae34e90ec9faf8ca5ad0
+  Stored in directory: /home/arpan/.cache/pip/wheels/d6/81/1c/a49ba782377339294cc45c9899927b61a92e58d6ad3ac942f7
+Successfully built lit
+Installing collected packages: tokenizers, mpmath, lit, cmake, sympy, psutil, nvidia-nvtx-cu11, nvidia-nccl-cu11, nvidia-cusparse-cu11, nvidia-curand-cu11, nvidia-cufft-cu11, nvidia-cuda-runtime-cu11, nvidia-cuda-nvrtc-cu11, nvidia-cuda-cupti-cu11, nvidia-cublas-cu11, fsspec, filelock, nvidia-cusolver-cu11, nvidia-cudnn-cu11, huggingface-hub, transformers, triton, torch, accelerate
+Successfully installed accelerate-0.19.0 cmake-3.26.3 filelock-3.12.0 fsspec-2023.5.0 huggingface-hub-0.14.1 lit-16.0.3 mpmath-1.3.0 nvidia-cublas-cu11-11.10.3.66 nvidia-cuda-cupti-cu11-11.7.101 nvidia-cuda-nvrtc-cu11-11.7.99 nvidia-cuda-runtime-cu11-11.7.99 nvidia-cudnn-cu11-8.5.0.96 nvidia-cufft-cu11-10.9.0.58 nvidia-curand-cu11-10.2.10.91 nvidia-cusolver-cu11-11.4.0.1 nvidia-cusparse-cu11-11.7.4.91 nvidia-nccl-cu11-2.14.3 nvidia-nvtx-cu11-11.7.91 psutil-5.9.5 sympy-1.11.1 tokenizers-0.13.3 torch-2.0.1 transformers-4.25.1 triton-2.0.0
