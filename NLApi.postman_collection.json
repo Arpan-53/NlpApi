@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "e1f18c51-74f6-4ea5-900e-29edc14faa87",
+		"name": "NLApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26751347"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:5000/QaApi",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"Text\":\"The India Gate (formerly known as the All India War Memorial) is a war memorial located near the Kartavya path on the eastern edge of the ceremonial axis of New Delhi, formerly called duty path. It stands as a memorial to 84,000 soldiers of the British Indian Army who died between 1914 and 1921 in the First World War, in France, Flanders, Mesopotamia, Persia, East Africa, Gallipoli and elsewhere in the Near and the Far East, and the Third Anglo-Afghan War. 13,300 servicemen's names, including\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/QaApi",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"QaApi"
+					],
+					"query": [
+						{
+							"key": "Text",
+							"value": "The India Gate (formerly known as the All India War Memorial) is a war memorial located near the Kartavya path on the eastern edge of the \"ceremonial axis\" of New Delhi, formerly called duty path. It stands as a memorial to 84,000 soldiers of the British Indian Army who died between 1914 and 1921 in the First World War, in France, Flanders, Mesopotamia, Persia, East Africa, Gallipoli and elsewhere in the Near and the Far East, and the Third Anglo-Afghan War. 13,300 servicemen's names, including",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
